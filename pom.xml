@@ -27,6 +27,14 @@
         </license>
     </licenses>
 
+    <developers>
+        <developer>
+            <id>alex12biz</id>
+            <name>Oleksandr Hasheniuk</name>
+            <email>hasheniuk@gmail.com</email>
+        </developer>
+    </developers>
+
     <scm>
         <url>https://github.com/hasheniuk/token</url>
     </scm>
