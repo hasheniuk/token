@@ -5,10 +5,10 @@ No same adjacent characters.
 
 **Tree**
 - `seed` random tree seed
-- `depth` represents token length
+- `depth` represents com.beepbell.token length
 
 **Counter** (optional)
-- `pos` (default `0`) id of the token. Two trees with same `seed` and `depth` returns same `token`, when counter is in the same `pos`
-- `step` (default `1`) increment pos each time `TokenService` returns token
+- `pos` (default `0`) id of the com.beepbell.token. Two trees with same `seed` and `depth` returns same `com.beepbell.token`, when counter is in the same `pos`
+- `step` (default `1`) increment pos each time `TokenService` returns com.beepbell.token
 - `rolling` (default `false`) when set to `true`, reset `pos` in case it overflows tree size. When `false` throws exception
 - `init` (default `0`) `pos` new value after overflow 

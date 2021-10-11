@@ -1,7 +1,7 @@
-package token;
+package com.beepbell.token;
 
-import token.counter.Counter;
-import token.random.RandomTree;
+import com.beepbell.token.counter.Counter;
+import com.beepbell.token.random.RandomTree;
 
 import java.math.BigInteger;
 

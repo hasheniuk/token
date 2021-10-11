@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.beepbell</groupId>
-    <artifactId>token</artifactId>
-    <version>1.0</version>
+    <artifactId>com.beepbell.token</artifactId>
+    <version>1.1</version>
     <packaging>jar</packaging>
 
     <name>Token</name>
@@ -19,6 +19,7 @@
         <junit.version>4.13.2</junit.version>
         <source.plugin.version>3.2.1</source.plugin.version>
         <javadoc.plugin.version>3.3.0</javadoc.plugin.version>
+        <gpg.plugin.version>3.0.1</gpg.plugin.version>
     </properties>
 
     <licenses>
@@ -38,7 +39,7 @@
     </developers>
 
     <scm>
-        <url>https://github.com/hasheniuk/token</url>
+        <url>https://github.com/hasheniuk/com.beepbell.token</url>
     </scm>
 
     <dependencies>
@@ -74,6 +75,20 @@
                         <id>attach-javadocs</id>
                         <goals>
                             <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+                <version>${gpg.plugin.version}</version>
+                <executions>
+                    <execution>
+                        <id>sign-artifacts</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>sign</goal>
                         </goals>
                     </execution>
                 </executions>

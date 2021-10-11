@@ -1,4 +1,4 @@
-package token.counter;
+package com.beepbell.token.counter;
 
 import java.math.BigInteger;
 

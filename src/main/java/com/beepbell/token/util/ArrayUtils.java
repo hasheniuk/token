@@ -1,4 +1,4 @@
-package token.util;
+package com.beepbell.token.util;
 
 public class ArrayUtils {
 

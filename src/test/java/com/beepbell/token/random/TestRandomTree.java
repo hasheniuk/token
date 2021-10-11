@@ -1,4 +1,4 @@
-package token.random;
+package com.beepbell.token.random;
 
 import org.junit.*;
 
