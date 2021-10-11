@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.beepbell</groupId>
-    <artifactId>com.beepbell.token</artifactId>
+    <artifactId>token</artifactId>
     <version>1.1</version>
     <packaging>jar</packaging>
 
